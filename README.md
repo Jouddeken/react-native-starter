@@ -1,33 +1,44 @@
 # react-native-starter
 
-Folders
+## Prerequisites
+1. Node
+1. Watchman
+1. Cocoapods
 
-- /android
-  - /app
-      - /src
-        - /debug
+## Installation
+1. Run `git clone git@github.com:Jouddeken/react-native-starter.git .`
+1. Run `npm install`
+1. Run `cd ios && pod install && cd ..`
+1. Run `npm run start`
+1. Run `npm run ios` or `npm run android`
+
+## Folder and file structure
+- / android
+  - / app
+      - / src
+        - / debug
           - AndroidManifest.xml
-        - /main
-          - /java / com / reactnativestarter
+        - / main
+          - / java / com / reactnativestarter
             - MainActivity.java
             - MainApplication.java
-          - /res
-            - /mipmap-hdpi
+          - / res
+            - / mipmap-hdpi
               - ic_launcher_round.png
               - ic_launcher.png
-            - /mipmap-mdpi
+            - / mipmap-mdpi
               - ic_launcher_round.png
               - ic_launcher.png
-            - /mipmap-xhdpi
+            - / mipmap-xhdpi
               - ic_launcher_round.png
               - ic_launcher.png
-            - /mipmap-xxhdpi
+            - / mipmap-xxhdpi
               - ic_launcher_round.png
               - ic_launcher.png
-            - /mipmap-xxxhdpi
+            - / mipmap-xxxhdpi
               - ic_launcher_round.png
               - ic_launcher.png
-            - /values
+            - / values
               - strings.xml
               - styles.xml
           - AndroidManifest.xml
@@ -36,7 +47,7 @@ Folders
       - build.gradle
       - debug.keystore
       - proguard-rules.pro
-  - /gradle / wrapper
+  - / gradle / wrapper
     - gradle-wrapper.jar
     - gradle-wrapper.properties
   - build.gradle
@@ -44,28 +55,28 @@ Folders
   - gradlew
   - gradle.bat
   - settings.gradle
-- /ios
-  - /Pods (includes packages like node_modules, can be ignored but then on start need to do `cd ./ios && pod install`)
-  - /ReactNativeStarter
-    - /Base.lproj
+- / ios
+  - / Pods
+  - / ReactNativeStarter
+    - / Base.lproj
       - LaunchScreen.xib
-    - /Images.xcassets
-      - /AppIcon.appiconset
+    - / Images.xcassets
+      - / AppIcon.appiconset
         - Contents.json
       - Contents.json
     - AppDelegate.h
     - AppDelegate.m
     - Info.plist
     - main.m
-  - /ReactNativeStarter.xcodeproj
+  - / ReactNativeStarter.xcodeproj
     - /xcshareddata / xcschemes
       - ReactNativeStarter.xcscheme
     - project.pbxproj
-  - /ReactNativeStarter.xcworkspace
+  - / ReactNativeStarter.xcworkspace
     - contents.xsworkspacedata
   - Podfile
   - Podfile.lock
-- /node_modules (IGNORE)
+- / node_modules
 - .gitignore
 - App.js
 - app.json
